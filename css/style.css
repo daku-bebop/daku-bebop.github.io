@@ -73,6 +73,10 @@ nav ul li a:hover{
     transform: scale(1.2);
 }
 .content {
+    display:flex;
+    justify-content: center; 
+    height: 100vh; 
+    align-items: center;
     position: absolute; 
     top: 20%;
     left: 8%;
