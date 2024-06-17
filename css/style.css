@@ -188,6 +188,24 @@ h3{
     line-height: 28px; 
     
 }
+.projects ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+.projects ul ul {
+    padding-left: 1em;
+    list-style-type: disc;
+}
+.projects ul ul ul {
+    padding-left: 1em;
+    list-style-type: circle;
+}
+.projects ul li {
+    margin-bottom: 0.5em;
+}
+.projects h2 {
+    color: #fcfc;
+}
 .box{
     width: 1120px;
     padding: 100px 0px;
