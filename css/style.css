@@ -11,6 +11,12 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.highlight{
+    background-color: #191919;
+    color: #fcfc;
+    padding: 05px; 
+
+}
 .x{
     height: 29vh; 
     width: 100%; 

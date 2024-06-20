@@ -15,7 +15,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href=></a></li>
         <li><a href="projects.html"class="current">Projects</a></li>
-       <!-- <li><a href="about.html">About</a></li>-->
+        <li><a href="about.html">About</a></li>
       </ul>
       <a href="https://github.com/daku-bebop" class="btn">github</a>
     </nav>
@@ -27,21 +27,20 @@
       <h1 style="color: #fcfc;"> Occam's Vault</h1> <p> Occam's Vault is a self-hosted password management solution designed to provide secure storage for sensative Information
         <ul>
           <li><b>Key Features:</b>
-            <p>This aplication utilizes AES for data at rest and argon2ib for hashing the master password. No credentials are stored in plaintext. The application implements a secure login and registration process. 
+            <p>This aplication utilizes AES for data at rest and argon2ii for hashing the master password. No credentials are stored in plaintext. The application implements a secure login and registration process. 
               It was imperitive for this project to remain privacy while having high availability. Therefore no data is ever transferred out to the external network. 
               The application implements incremental, differential, and full abckup stragtegies to ensure data integrity and availability, while allowing users
               to export their database to other password managers, ensuring flexibility and user control
           <li><b>Technology Stack:</b>
-            <ul style="color: blanchedalmond;">
+            <ul>
               <li><b>Backend Development:</b> Python and the Bottle framework</li>
               <li><b>Database:</b> MySQL</li>
-              <li><b>Encryption:</b> AES for data at rest, Argon2i for password hashing, SSL/TLS for network communication</li>
+              <li><b>Encryption:</b> AES for data at rest, Argon2i for password hashing, SSL/TLS for <br>network communication</li>
               <li><b>Certification:</b> Let's Encrypt for obtaining SSL/TLS certificates</li>
             </ul>
           </li>
         </ul>
-        <br>
-      <p></p><h1 style = "color: #fcfc;">Cryptographic Techniques Implementation</h1>
+      <p></p><h2 style = "color: #fcfc;">Cryptographic Techniques Implementation</h2>
       <br>
       <p>This library showcases the implementation of various cryptographic techniques using Python<br>
       Covering encryption and decryption methods for RSA, ElGamal and other ciphers</p>
@@ -49,7 +48,7 @@
         <br>
         <br>
       </p>
-      <h1 style="color: #fcfc;">Slay the Spire: Character Analysis</h1>
+      <h2 style="color: #fcfc;">Slay the Spire: Character Analysis</h2>
         <br>
         <p> Python program that reads data from json files to process data and extract key conditions from the video game Slay The Spire.
             The code focuses on three specific characters: IRONCLAD, THE_SILET, and DEFECT. It calculates and returns statistics using NumPy and SciPy libraries.
