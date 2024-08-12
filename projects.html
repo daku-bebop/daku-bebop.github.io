@@ -26,22 +26,30 @@
   <section class = "about"> 
     <div class="main">
     <div class="about-text"> 
-      <h1 style="color: #fcfc;"> Occam's Vault</h1> <p> Occam's Vault is a self-hosted password management solution designed to provide secure storage for sensative Information
+      <h1 style="color: #fcfc;">Occam's Vault</h1>
+        <p>I use many  self-hosted services but have not developed one myself. I decided to create a network attached vault that stores credentials, notes and files for multiple users while providing robust storage.</p>
+        <p> This project started as a means to explain self-hosting to my friends and family and providing them with a local cloud. 
+        
         <ul>
           <li><b>Key Features:</b>
-            <p>This aplication utilizes AES for data at rest and argon2ib for hashing the master password. No credentials are stored in plaintext. The application implements a secure login and registration process. 
-              It was imperitive for this project to remain privacy while having high availability. Therefore no data is ever transferred out to the external network. 
-              The application implements incremental, differential, and full abckup stragtegies to ensure data integrity and availability, while allowing users
-              to export their database to other password managers, ensuring flexibility and user control
+            <ul style="color: blanchedalmond;">
+              <li><b>Data Security:</b> Utilizes AES encryption for data at rest and Argon2ib for hashing the master password. No credentials are stored in plaintext, ensuring the highest level of security.</li>
+              <li><b>Privacy & Availability:</b> The application is designed to ensure privacy, with no data transferred outside the network. </li>
+              <li><b>User Control:</b> Users can export their database to other password managers by downloading their cached database, ensuring flexibility and full control over their data. Users can also completely delete their user profile.</li>
+            </ul>
+          </li>
           <li><b>Technology Stack:</b>
             <ul style="color: blanchedalmond;">
               <li><b>Backend Development:</b> Python and the Bottle framework</li>
-              <li><b>Database:</b> MySQL</li>
-              <li><b>Encryption:</b> AES for data at rest, Argon2i for password hashing, SSL/TLS for network communication</li>
-              <li><b>Certification:</b> Let's Encrypt for obtaining SSL/TLS certificates</li>
+              <li><b>Database:</b> MySQL for secure and reliable data storage</li>
+          
+              <li><b>Network Security:</b> SSL/TLS using OpenSSL for secure communication over HTTPS</li>
             </ul>
           </li>
         </ul>
+
+        <p><b>Project Impact:</b> Occam's Vault provides a seamless experience for users seeking a self-hosted password management solution. Its design ensures data integrity, availability, and confidentiality, making it a comprehensive tool for managing sensitive information securely.</p>
+        
         <br>
         <br>
       <h1 style = "color: #fcfc;">Cryptographic Techniques Implementation</h1>
